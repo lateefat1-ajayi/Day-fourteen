@@ -34,9 +34,9 @@ function Favorites() {
               >
                 <button
                   onClick={() => removeFromFavorites(entry.word)}
-                  className="absolute top-2 right-2 text-sm text-red-400 hover:text-red-600"
+                  className="absolute top-2 right-2 text-sm text-white bg-red-400 hover:bg-red-600"
                 >
-                  ❌
+                  remove from ⭐
                 </button>
                 <h2 className="text-xl font-semibold text-pink-700 capitalize">
                   {entry.word}

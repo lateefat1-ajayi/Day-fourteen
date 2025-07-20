@@ -9,11 +9,11 @@ const Home = () => {
           “Look it up. Learn it. Live it.”
         </p>
         <p className="text-md text-gray-500 mb-8">
-          Your soft and simple online dictionary — powered by books, styled with love.
+        Look up words, save your favorites, and improve your vocabulary.
         </p>
         <Link
           to="/search"
-          className="inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-6 rounded-xl transition duration-300 cursor-pointer"
+          className="inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-6 rounded-xl transition duration-300 cursor-pointer hover:-translate-y-0.5"
         >
           Start Searching
         </Link>
